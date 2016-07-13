@@ -1,0 +1,124 @@
+@font-face {
+	font-family: GodFather;
+	src: url(fonts/TheGodFather);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style-type: none;
+}
+
+.header {
+	background: black;
+	width: 100%;
+	height: 73px;
+	top: 0;
+	position: fixed;
+
+}
+.footer {
+    color: white;
+    background: black;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+    line-height: 10px
+}
+
+.logo {
+	width: 50px;
+	height: 73px;
+	float: left;
+	position: absolute;
+    top: 3px;
+    left: 265px;
+}
+
+.menu{
+	float: right;
+	width: 73%;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color: #FE6001;
+}
+
+.menu li {
+	float: left;
+	margin-left: 60px;
+	padding-top: 10px;
+	font-size: 25px;
+}
+
+.content_home {
+	width: 100%;
+	background-image: url(../img/home_background.jpeg);
+	background-size: cover;
+    font-family: GodFather;
+}
+
+
+.main {
+	margin-top: 72px;
+}
+
+
+.title_history {
+	padding-top: 20px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 80px;
+	color: #FE6001;
+}
+
+.sections_history{
+	text-align: center;	
+	font-size: 22px;
+	color: #EE7D18;
+	font-weight: 600;
+}
+
+.section_history_1 {
+	margin-top: 35px;
+	margin-left: 810px;
+	width: 450px;
+	background-color: #F2D8A0;
+	padding: 1px 6px;
+	border: 3px solid #EDAA6D;
+	color: #EE7D18;
+}
+
+.section_history_2 {
+	width: 400px;
+	background-color: #F2D8A0;
+	border: 3px solid #EDAA6D;
+	margin-left: 30px;
+}
+
+.section_history_3 {
+	width: 400px;
+	background-color: #F2D8A0;
+	border: 3px solid #EDAA6D;
+	margin-left: 750px;
+	margin-top: 90px;
+	margin-bottom: 35px;
+	padding-left: 3px;
+	padding-right: 4px;
+}
+
+.content_gangsters {
+	width: 100%;
+	background-image: url(../img/gangsters_background.jpeg);
+	background-size: cover;
+    font-family: GodFather;
+}
